@@ -5,17 +5,41 @@ $gray: #F4F4F4;
 
 body {
   background: $gray;
+
 }
 
-.banner {
-  background: red;
-  h1 {
-    font-size: 50px;
-  }
+.span {
+  background:white;
+  height: 50px;
+  width: 50%;
+  border-radius: 10px;
 }
 a {
   color: grey;
   &:hover {
     color: black;
   }
+}
+
+#btn{
+  background-color: blue;
+  color: white;
+
+  width: 50px;
+  height: 55px;
+  border-radius:10px;
+}
+
+.question {
+  margin-top: 50px;
+  height: 50px;
+  padding-left: 60px;
+  border-left: 5px solid grey;
+}
+
+.answer{
+  background-color: rgb(239, 236, 172);
+  height: 50px;
+  padding-left: 60px;
+  border-left: 5px solid grey;
 }
